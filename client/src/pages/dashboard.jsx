@@ -186,7 +186,7 @@ const Dashboard = () => {
         {/* /left */}
         {user.role === "admin" && (
           <>
-            <TaskTable tasks={summary.last10Task} />
+            <TaskTable />
           </>
 
         )}

@@ -29,8 +29,7 @@ const httpServer = http.createServer(app);
 // Initialize Socket.IO and pass the httpServer so they both use the same port
 const io = new Server(httpServer, {
   cors: {
-    origin: '*',  // Adjust for production if needed
-    methods: ['GET', 'POST'],
+    origin: '*',
   },
 });
 
