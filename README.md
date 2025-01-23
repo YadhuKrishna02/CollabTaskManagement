@@ -132,3 +132,8 @@ A powerful and user-friendly application designed to help teams create, assign, 
 - Frontend hosting facing some issues
 - **API Documentation**
 - https://documenter.getpostman.com/view/41127582/2sAYQdkAZM
+
+live link - http://13.61.15.231
+### Admin Credentials
+- admin@test.com
+- Admin@123
