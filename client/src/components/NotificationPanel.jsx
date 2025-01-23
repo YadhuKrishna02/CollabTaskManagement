@@ -38,8 +38,7 @@ const NotificationPanel = () => {
   useEffect(() => {
     if (socket) {
       socket.on("taskStatusUpdated", (payload) => {
-        console.log(payload, 'payyy');
-        console.log(user._id, 'user id');
+
 
         // Only show the notification if the current user's ID is in the assignedUsers array
         if (payload.updatedFields.assignedUsers.includes(user._id) || user.role == "admin") {

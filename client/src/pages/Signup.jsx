@@ -98,9 +98,9 @@ const Signup = () => {
                             <span>Create an Account</span>
                             <span>To Stay Organized</span>
                         </p>
-                        <div className="cell">
+                        {/* <div className="cell">
                             <div className="circle rotate-in-up-left"></div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
