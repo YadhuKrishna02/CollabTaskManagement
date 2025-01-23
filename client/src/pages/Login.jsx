@@ -108,7 +108,7 @@ const Login = () => {
                 label='Password'
                 className='w-full rounded-full'
                 register={register("password", {
-                  required: "Password is required!",
+                  required: "Password is required!!",
                 })}
                 error={errors.password ? errors.password.message : ""}
               />
