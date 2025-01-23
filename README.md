@@ -130,3 +130,5 @@ A powerful and user-friendly application designed to help teams create, assign, 
 
 - Backend hosted on AWS in ip 13.61.15.231
 - Frontend hosting facing some issues
+- **API Documentation**
+- https://documenter.getpostman.com/view/41127582/2sAYQdkAZM
