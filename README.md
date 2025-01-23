@@ -43,6 +43,11 @@ A powerful and user-friendly application designed to help teams create, assign, 
 #### Authentication
 - **JWT-based authentication** with role-based access control (Admin, User).
 - Passwords are hashed securely using **bcrypt**.
+### BASE URL - `http://localhost:4000/api`
+#### Auth API
+- **Endpoints:**
+  - `POST auth/log-in` – Login a user
+  - `POST auth/sign-up` – Register a new user
 
 #### Task Management API
 - **Endpoints:**
@@ -90,7 +95,7 @@ A powerful and user-friendly application designed to help teams create, assign, 
 ### Backend
 - Node.js
 - Express
-- MongoDB/PostgreSQL
+- MongoDB
 - JWT for authentication
 - Socket.IO for real-time updates
 
@@ -106,8 +111,8 @@ A powerful and user-friendly application designed to help teams create, assign, 
 
 ### Prerequisites
 - Node.js (v16+)
-- npm or yarn
-- MongoDB/PostgreSQL instance
+- npm
+- MongoDB  
 
 ### Steps
 1. Clone the repository:
@@ -123,4 +128,5 @@ A powerful and user-friendly application designed to help teams create, assign, 
         cd server
             - npm run dev
 
-
+- Backend hosted on AWS in ip 13.61.15.231
+- Frontend hosting facing some issues
